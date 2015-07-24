@@ -1,0 +1,276 @@
+.newsForm, .container, .header, .sidebar, .footer, .oneNews,
+    .newsMessage, .editNews, textarea {
+    font: normal 16px Arial, Helvetica, sans-serif;
+    border: 3px solid black;
+}
+
+.myPagination ul {
+    margin-left: 250px;
+    display:inline-flex;
+}
+
+#myInp {
+     height: 36px;
+     text-align: center;
+}
+
+/* #tagList li a {
+    width: 100px;
+}
+ */
+::-webkit-input-placeholder {
+    color: black;
+}
+
+.chosen {
+    background-color: yellow;
+}
+
+#my-pagination li a {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.newsForm, .newsMessage {
+    width: 100%;
+    min-height: 95.5%;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.pagination-centered {
+    position: fixed;
+    bottom: 105px;
+    width: 100%;
+}
+
+.newsMessage .pagination-centered {
+    position: fixed;
+    bottom: 140px;
+    width: 100%;
+}
+
+.newsForm .buttons {
+    float: right;
+}
+
+.cmntForm .buttons {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.cmntForm button {
+    border-color: #009900;
+    background-color: white;
+    color: #009900;
+}
+
+.oneComment {
+    margin-left: 20px;
+    position: relative;
+    width: 89%;
+    height: 7%;
+    font: normal 16px Arial, Helvetica, sans-serif;
+}
+
+.oneComment .date {
+    float: left;
+    color: #009900;
+}
+
+.cmntForm {
+    margin-bottom: 40px;
+}
+
+.commentText {
+    float: left;
+    color: #009900;
+}
+
+.authError {
+    color: red;
+}
+
+button {
+    font-size: 16px;
+    padding: 1px 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #B9B7B7;
+}
+
+.container {
+    height: 94%;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.content-container {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.content {
+    float: right;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    width: 75.5%;
+    height: 84.7%;
+    /* overflow-y: auto; */
+}
+
+.cmntArea {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.cmntArea textarea {
+    border-color: #009900;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.date {
+    font-size: 12px;
+    float: right;
+}
+
+.delCmnt {
+    border-color: #009900;
+    background-color: white;
+    color: #009900;
+    float: right;    
+}
+
+.footer {
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 7px; '
+    clear: both;
+    text-align: center;
+    height: 3em;
+    line-height: 3em;
+}
+
+.fullText {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.header {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.header .lang {
+    float: right;
+}
+
+.header .back {
+    float: left;
+}
+
+.oneNews {
+    width: 95%;
+    min-height: 14%;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.refs {
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+}
+
+.shortText {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.sidebar {
+    width: 19.5%;
+    height: 81%;
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+    text-align: left;
+    overflow-y: auto;
+}
+
+.tags {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+    margin-right: 65px;
+    color: #009900;
+    text-align: right;
+}
+
+p textarea {
+    margin-left: 20px;
+}
+
+div ul.pagination {
+    margin-left: 290px;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 20px;
+    text-align: left;
+}
+
+.dropdownBtn {
+    font-size: 18px;
+    color: #009900;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+ul li {
+    display: block;
+    position: relative;
+}
+
+ul li ul li {
+    padding-left: 10px;
+}
+
+li ul {
+    display: none;
+    padding-left: 5px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #009900;
+}

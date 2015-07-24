@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="fixed" class="java.util.concurrent.Executors" factory-method="newFixedThreadPool">
+        <constructor-arg type="int" value="${import.fixed.size}" />
+    </bean>
+
+    <bean name="scheduled" class="java.util.concurrent.ScheduledThreadPoolExecutor">
+        <constructor-arg type="int" value="${import.scheduled.size}" />
+    </bean>
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:import.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="org.springframework.beans.factory.config.ServiceLocatorFactoryBean" id="newsImportJobFactory"
+        p:serviceLocatorInterface="com.epam.lab.news.job.factory.NewsImportJobFactory" />
+        
+    <bean class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" id="validator" />
+</beans>

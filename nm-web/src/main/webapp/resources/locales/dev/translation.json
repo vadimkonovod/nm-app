@@ -1,0 +1,64 @@
+{
+  "header": {
+    "ru": "RU",
+    "en": "EN",
+    "back": "Back"
+  },
+  "form": {
+    "title": "Title:",
+    "short": "Short description:",
+    "full": "Full description:",
+    "saveBtn": "Save",
+    "cancelBtn": "Cancel",
+    "addComment": "Add Comment"
+  },
+  "comment": {
+    "delete": "Delete",
+    "confirmDelete": "Are you sure to delete this comment?"
+  },
+  "footer": {
+    "appName": "News Management (c) 2015"
+  },
+  "sidebar": {
+    "listNews": "List News",
+    "addNews": "Add News",
+    "delNews": "Delete News",
+    "editNews": "Edit News",
+    "tags": "Tags",
+    "authors": "Authors",
+    "comments": "Comments",
+    "addTag": "new...",
+    "addAuthor": "new...",
+    "viewComments": "View Comments"
+  },
+  "multiselect": {
+    "tags": "Tags",
+    "authors": "Authors"
+  },
+  "news": {
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "confirm": {
+    "noSave": "Are you sure you want to leave this page without saving?",
+    "delete": "Are you sure to delete this news article?"
+  },
+  "add": {
+    "tag": "Please, enter new tag",
+    "author": "Please, enter new author's name"
+  },
+  "error": {
+    "onPage": "Error!",
+    "tagExist": "Such tag already exists!",
+    "tagEmpty": "The tag should not be empty!",
+    "authorExist": "Such author already exists!",
+    "authorEmpty": "The author's name should not be empty!",
+    "addAuthor": "The news must have at least one author!",
+    "invalidPageNumber": "Please enter a value between "
+  },
+  "message": {
+    "of": "of",
+    "and": "and"
+  } 
+}
