@@ -1,29 +1,3 @@
-# README #
+# News Management Single-Page App # 
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Developed back-end and front-end for single-page News Management application with using SOLID design principles, MVC architectural pattern, REST services(with JSON messages), Spring transaction management, jQuery and AJAX for UI, performed unit tests. Used technologies: Spring Framework, Spring MVC, JPA, REST, HTML, CSS, JavaScript
