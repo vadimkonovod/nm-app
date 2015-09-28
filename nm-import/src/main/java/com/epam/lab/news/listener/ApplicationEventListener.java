@@ -18,6 +18,7 @@ public class ApplicationEventListener implements ApplicationListener<ContextRefr
 
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
-        newsImportJobFactory.getNewsImportJob(fileType).launchImport();
+        //newsImportJobFactory.getNewsImportJob(fileType).launchImport();
+        newsImportJobFactory.getNewsImportJob("Twitter").launchImport();
     }
 }

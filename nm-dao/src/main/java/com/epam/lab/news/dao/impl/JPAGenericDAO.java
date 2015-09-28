@@ -9,6 +9,7 @@ import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 
+import com.epam.lab.news.domain.News;
 import org.springframework.core.GenericTypeResolver;
 
 import com.epam.lab.news.dao.GenericDAO;
