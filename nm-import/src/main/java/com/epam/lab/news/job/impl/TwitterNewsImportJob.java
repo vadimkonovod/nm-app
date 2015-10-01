@@ -3,6 +3,7 @@ package com.epam.lab.news.job.impl;
 import com.epam.lab.news.domain.News;
 import com.epam.lab.news.job.NewsImportJob;
 import com.epam.lab.news.service.NewsService;
+import com.epam.lab.news.util.io.Twitter4JProcessor;
 import com.epam.lab.news.util.io.TwitterProcessor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
