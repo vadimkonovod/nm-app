@@ -68,7 +68,7 @@ public class TwitterProcessor {
             }
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("Failed to get timeline: " + e.getMessage());
+            System.out.println("Failed with gettng timeline: " + e.getMessage());
         }
         return newsList;
     }
